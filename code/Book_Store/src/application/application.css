@@ -1,0 +1,56 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+    -tab-text-color: -fx-text-base-color ;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.tab-label {
+    -fx-text-fill: #fff ;
+}
+
+.tab-pane *.tab-header-background {
+    -fx-background-color: transparent;
+    -fx-border-color:   #0D47A1;
+}
+
+ .tab{
+	-fx-background-color: transparent, tab-border-color , tab-color;
+	tab-color: linear-gradient(light-tab-color, dark-tab-color) ;
+	tab-border-color : dark-tab-color ;
+    dark-tab-color: #0D47A1 ;
+    light-tab-color: #1976D2 ;
+    -fx-background-insets: 0, 0 5 0 0, 1 6 0 0 ;
+    -fx-padding: 8 20 8 8 ;
+    -fx-font-family: Arial;
+    -fx-font-size: 16;
+}
+
+ .tab:selected
+{
+    -fx-background-color: transparent, tab-border-color , tab-color;
+	tab-color: linear-gradient(light-tab-color, dark-tab-color) ;
+	tab-border-color : #0D47A1 ;
+    dark-tab-color: #1976D2 ;
+    light-tab-color: #0D47A1 ;
+    -fx-background-insets: 0, 0 5 0 0, 1 6 0 0 ;
+    -fx-padding: 4 10 4 4 ;  
+    -fx-border : 1 1 1 1;
+}
+
+.tab:hover {
+    -fx-background-color: transparent, tab-border-color , tab-color;
+	tab-color: linear-gradient(light-tab-color, dark-tab-color) ;
+	tab-border-color : #0D47A1 ;
+    dark-tab-color: #1976D2 ;
+    light-tab-color: #0D47A1 ;
+    -fx-background-insets: 0, 0 5 0 0, 1 6 0 0 ;
+    -fx-padding: 4 10 4 4 ;  
+    -fx-border : 1 1 1 1;
+}
+
+.button:hover {
+    -fx-background-color: #383838;
+    -fx-scale-y: 1.1;
+    -fx-scale-x:1.1;
+}
